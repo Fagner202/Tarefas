@@ -1,0 +1,23 @@
+# Arquivos e diretórios específicos do PHP
+vendor/
+
+# Arquivos específicos do Docker
+docker-compose.override.yml
+.env
+
+# Arquivos de sistema
+Thumbs.db
+.DS_Store
+
+# Logs e cache
+log/
+logs/
+.cache/
+
+# Arquivos de configuração
+*.conf
+*.ini
+
+# Arquivos de build
+docker-compose.yml
+Dockerfile
